@@ -2,7 +2,7 @@
 
 🔍 Live Preview
 
-🌍 Live Site 📦 GitHub Repository
+🌍 Live Site 📦 GitHub Repository: https://github.com/mattialavai/ignite-impact-landing
 
 ✨ Features Responsive layout for desktop and mobile
 

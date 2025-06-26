@@ -20,14 +20,17 @@ const Card = styled.div`
   flex: 1 1 250px;
   background-color: ${theme.colors.white};
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(31, 65, 187, 0.15);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
   text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
 
   &:hover {
-    box-shadow: 0 6px 18px rgba(31, 65, 187, 0.4);
-    transform: translateY(-6px);
-    transition: all 0.3s ease;
+    transform: translateY(-8px);
+    box-shadow: 0 12px 36px rgba(31, 65, 187, 0.3);
+    border: 1px solid rgba(31, 65, 187, 0.4);
   }
 `;
 

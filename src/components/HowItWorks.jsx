@@ -26,9 +26,17 @@ const StepCard = styled.div`
   flex: 1 1 280px;
   background-color: ${theme.colors.white};
   padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(31, 65, 187, 0.1);
+  border: 1px solid rgba(31, 65, 187, 0.1);
   text-align: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(31, 65, 187, 0.25);
+    border-color: rgba(31, 65, 187, 0.3);
+  }
 `;
 
 const StepNumber = styled.div`

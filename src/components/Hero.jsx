@@ -46,7 +46,12 @@ const StoreButton = styled.a`
   &:hover {
     transform: scale(1.05);
   }
+
+  @media (max-width: 480px) {
+    width: 80px;
+  }
 `;
+
 
 const Hero = () => (
   <HeroSection>

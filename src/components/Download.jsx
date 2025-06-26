@@ -29,7 +29,14 @@ const StoreButtonGroup = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+
+  @media (max-width: 480px) {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
 `;
+
 
 const StoreButton = styled.a`
   display: inline-block;
@@ -45,6 +52,10 @@ const StoreButton = styled.a`
 
   &:hover {
     transform: scale(1.05);
+  }
+
+  @media (max-width: 480px) {
+    width: 80px;
   }
 `;
 

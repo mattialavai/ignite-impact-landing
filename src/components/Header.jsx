@@ -7,10 +7,12 @@ const Header = () => {
 
   return (
     <Nav>
-      <Logo src="/assets/logo.jpg" alt="Ignite Impact Logo" />
-      <Hamburger onClick={() => setMenuOpen(!menuOpen)}>
-        ☰
-      </Hamburger>
+      <Brand>
+        <Logo src="/assets/logo.jpg" alt="Ignite Impact Logo" />
+        <BrandName>Ignite Impact</BrandName>
+      </Brand>
+
+      <Hamburger onClick={() => setMenuOpen(!menuOpen)}>☰</Hamburger>
 
       <Menu open={menuOpen}>
         <NavLink href="#features">Features</NavLink>
@@ -34,8 +36,21 @@ const Nav = styled.header`
   z-index: 999;
 `;
 
+const Brand = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;
+
 const Logo = styled.img`
-  height: 50px;
+  height: 36px;
+  width: auto;
+`;
+
+const BrandName = styled.span`
+  font-size: 20px;
+  font-weight: 700;
+  color: ${theme.colors.primary};
 `;
 
 const Hamburger = styled.div`

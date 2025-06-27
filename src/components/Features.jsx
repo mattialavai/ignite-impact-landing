@@ -47,7 +47,7 @@ const Description = styled.p`
 `;
 
 const Features = () => (
-  <Section>
+  <Section id="features">
     <Wrapper>
       <Card>
         <Title>Internships</Title>

@@ -58,7 +58,7 @@ const StepDescription = styled.p`
 `;
 
 const HowItWorks = () => (
-  <Section>
+  <Section id="how-it-works">
     <Title>How It Works</Title>
     <StepsWrapper>
       <StepCard>

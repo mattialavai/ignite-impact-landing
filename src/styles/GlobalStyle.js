@@ -15,6 +15,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.6;
   }
 
+  html {
+  scroll-behavior: smooth;
+}
+
   a {
     text-decoration: none;
   }

@@ -61,7 +61,7 @@ const StoreButton = styled.a`
 
 // ✅ Then define the functional component
 const Download = () => (
-  <DownloadSection>
+  <DownloadSection id="download">
     <h2>Download the App Now</h2>
     <p>
       Get access to top internship, job, and volunteering opportunities right from your phone.

@@ -28,7 +28,7 @@ const StoreButtonGroup = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
 
   @media (max-width: 480px) {
     flex-direction: row;
@@ -54,12 +54,14 @@ const StoreButton = styled.a`
     transform: scale(1.05);
   }
 
+
   @media (max-width: 480px) {
-    width: 80px;
+    width: 100px;
+    
   }
 `;
 
-// ✅ Then define the functional component
+
 const Download = () => (
   <DownloadSection id="download">
     <h2>Download the App Now</h2>
